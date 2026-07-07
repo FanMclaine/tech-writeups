@@ -6,9 +6,11 @@
 
 Released on July 4 2026, fool’s mate is an **easy** room hosted on TryHackMe that claims to take 15 minutes to solve (yet it took me over 2 hours). The machine featured a basic chess trainer website that requires you to outsmart the bot to get to the flag. The chess puzzle inside was a very straightforward mate-in-one, so no chess skills needed (trust me I’m 300 elo) — however, it will surely test your web hacking and Javascript code reading skills. Since it was a newly released room on tryhackme, I got over 45 points after solving it.
 
+
 ## 🗞️ Abstract
 
-The flag was captured through forcing a state in the client-side to accept the mate-in-one loss condition. This was achieved by overriding the `app.js` file via a built-in browser DevTools then changing a single line of return statement.
+> The flag was captured through forcing a state in the client-side to accept the mate-in-one loss condition. This was achieved by overriding the `app.js` file via a built-in browser DevTools then changing a single line of return statement.
+
 
 ## 🔍 Reconnaissance
 
